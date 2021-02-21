@@ -2,20 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { Com1Component } from './component1/com1.component';
-import { Com2Component } from './component2/com2.component';
-import { Com3Component } from './component3/com3.component';
-import { Com4Component } from './component4/com4.component';
 import { Mod1Module } from './mod1/mod1.module';
 import { Mod2Module } from './mod2/mod2.module';
+import { Comp1Component } from './comp1/comp1.component';
+import { Comp2Component } from './comp2/comp2.component';
+import { Comp3Component } from './comp3/comp3.component';
+import { Comp4Component } from './comp4/comp4.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Com1Component,
-    Com2Component,
-    Com3Component,
-    Com4Component
+    Comp1Component,
+    Comp2Component,
+    Comp3Component,
+    Comp4Component
   ],
   imports: [
     BrowserModule,
